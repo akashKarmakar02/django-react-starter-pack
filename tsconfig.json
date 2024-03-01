@@ -1,0 +1,16 @@
+{
+  "include": ["resources/**/*.tsx", "resources/**/*.vue", "resources/**/*.ts"],
+  "compilerOptions": {
+    "jsx": "react",
+    "allowJs": true,
+    "strict": false,
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["resources/js/*"]
+    },
+    "types": ["vite/client"]
+  }
+}
